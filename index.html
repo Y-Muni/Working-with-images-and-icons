@@ -3,7 +3,7 @@
     <title>Images</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/"></script>
+    <!-- <script src="https://kit.fontawesome.com/"></script> -->
 </head>
 <body>
     <h1>Images</h1>
@@ -14,10 +14,20 @@
         <li>GIF</li>
         <li>Webp</li>
     </ul>
+    <picture class="pic">
+        <source media="(max-width: 500px)" srcset="img/html-01.png">
+        <source media="(max-width: 900px)" srcset="img/html-02.png">
+        <img src="img/html-03.png" alt="">
+    </picture>
+
+
+
+
+    <!--Первый пример работы с тегом 
     <picture>
         <source tupe="image/webp" srcset="img/html5.webp">
         <source tupe="image/jpeg" srcset="img/css.jpeg">
         <img src="img/css.jpeg" alt="картинка">
     </picture>
-    <!-- Почему-то внутри тега picture у меня не срабатывает вообще картинка, а если отдельно использовать тег img - то все прекрасно работает, странно??? -->
+    Почему-то внутри тега picture у меня не срабатывает вообще картинка, а если отдельно использовать тег img - то все прекрасно работает, странно??? -->
 </body>
