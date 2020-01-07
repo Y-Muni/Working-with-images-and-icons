@@ -1,0 +1,11 @@
+.small-image {
+    width: 400px;
+}
+
+.small-image > img {
+
+}
+
+.pic > * {
+    max-width: 300px;
+}
