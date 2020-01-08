@@ -25,7 +25,7 @@ html {
 
 .link {
     color: #fff;
-    background-color: rgb(10, 131, 212);
+    background-color: #008ddd;
     padding: 10px;
     text-decoration: none;
     font-size: 16px;
@@ -38,7 +38,7 @@ html {
 }
 
 .link:hover {
-    background-color:rgb(23, 105, 160);
+    background-color:#008ddd;
     color: white;
 }
 
@@ -69,56 +69,57 @@ html {
     display: flex;
 }
 .one {
-    box-sizing: border-box;
-    padding: 5px;
+    box-sizing: content-box;
+    /* padding-top: 10px 10px; */
+    height: 400px;
 }
 
 .two {
     display: flex;
     box-sizing: content-box;
-    padding: 5px;
-    width: 500px;
+    /* padding: 5px; */
+    width: 400px;
 }
 
 .three {
     display: flex;
     box-sizing: content-box;
-    padding: 5px;
-    width: 500px;
+    /* padding: 5px; */
+    width: 400px;
 }
 
 .card_first {
     display: inline-block;
     box-sizing: content-box;
-    width: 50%;
+    width: 400px;
     height: 100%;
 }
 
 .card_second {
     display: inline-block;
     box-sizing: content-box;
-    width: 50%;
+    width: 400px;
     height: 100%;
 }
 
 .card_third {
     display: inline-block;
     box-sizing: content-box;
-    width: 50%;
+    width: 400px;
     height: 100%;
 }
 
 
 .block_first {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color:#008ddd;
     font-size: 20px;
-    border-radius: 0 20px 20px 20px;
+    border-radius: 0 30px 30px 30px;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
     font-weight: normal;
     text-decoration: none;
-    box-sizing: border-box;
-    outline: 2px solid rgba(22, 22, 22, 0.356);
+    width: 400px;
+    height: 400px;
 }
 
 .block_second {
@@ -127,10 +128,10 @@ html {
     font-size: 20px;
     border-radius: 0 20px 20px 20px;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
-    font-weight: normal;
     text-decoration: none;
-    box-sizing: border-box;
-    outline: 2px solid rgba(22, 22, 22, 0.356);
+    outline: 1px solid rgba(22, 22, 22, 0.356);
+    width: 400px;
+    height: auto;
 }
 
 .block_third {
@@ -139,8 +140,8 @@ html {
     font-size: 20px;
     border-radius: 0 20px 20px 20px;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
-    font-weight: normal;
     text-decoration: none;
-    box-sizing: border-box;
-    outline: 2px solid rgba(22, 22, 22, 0.356);
+    outline: 1px solid rgba(22, 22, 22, 0.356);
+    width: 400px;
+    height: auto;
 }
