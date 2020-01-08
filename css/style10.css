@@ -69,13 +69,80 @@ html {
     display: flex;
 }
 .one {
-    box-sizing: border-box;
+    display: flex;
+    box-sizing: content-box;
     padding: 5px;
+    width: 500px;
 }
 
-.card {
+.two {
+    display: flex;
+    box-sizing: content-box;
+    padding: 5px;
+    width: 500px;
+}
+
+.three {
+    display: flex;
+    box-sizing: content-box;
+    padding: 5px;
+    width: 500px;
+}
+
+.card_first {
     display: inline-block;
     box-sizing: content-box;
     width: 50%;
     height: 100%;
+}
+
+.card_second {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 50%;
+    height: 100%;
+}
+
+.card_third {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 50%;
+    height: 100%;
+}
+
+
+.block_first {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 0 20px 20px 20px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: 2px solid rgba(22, 22, 22, 0.356);
+}
+
+.block_second {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 0 20px 20px 20px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: 2px solid rgba(22, 22, 22, 0.356);
+}
+
+.block_third {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 0 20px 20px 20px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: 2px solid rgba(22, 22, 22, 0.356);
 }
