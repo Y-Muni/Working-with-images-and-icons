@@ -26,10 +26,10 @@ html {
 .link {
     color: #fff;
     background-color: #008ddd;
-    padding: 10px;
+    padding: 10px 10px;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 2.2rem;
+    border-radius: 22px;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     outline: none;
     font-weight: bold;
@@ -81,6 +81,7 @@ html {
     display: flex;
     box-sizing: content-box;
     background-size: contain;
+    border-radius: 0 18px 0 0;
     /* padding: 5px; */
     width: 400px;
 }
@@ -89,6 +90,7 @@ html {
     display: flex;
     box-sizing: content-box;
     background-size: contain;
+    border-radius: 0 18px 0 0;
     /* padding: 5px; */
     width: 400px;
 }
@@ -191,4 +193,15 @@ html {
     margin: 0px;
     padding: 20px 20px;
     color: rgb(59, 59, 59);
+}
+
+.link_one {
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+}
+
+.link_two {
+    text-align: left;
+    padding: 5px 5px 10px 15px;
+    border-radius: 100%;
 }
