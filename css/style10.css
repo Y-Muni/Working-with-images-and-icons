@@ -69,10 +69,8 @@ html {
     display: flex;
 }
 .one {
-    display: flex;
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 5px;
-    width: 500px;
 }
 
 .two {
