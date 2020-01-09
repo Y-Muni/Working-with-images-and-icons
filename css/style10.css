@@ -17,12 +17,6 @@ html {
     border-bottom: 1.8px solid;
 }
 
-/* У меня почему-то не срабатывает(((
-.menu:first-child {
-    font-weight: bold;
-    font-size: 20px;
-} */
-
 .link {
     color: #fff;
     background-color: #008ddd;
@@ -91,7 +85,6 @@ html {
     box-sizing: content-box;
     background-size: contain;
     border-radius: 0 18px 0 0;
-    /* padding: 5px; */
     width: 400px;
 }
 
@@ -99,21 +92,19 @@ html {
     display: inline-block;
     box-sizing: content-box;
     width: 400px;
-    height: 100%;
+    height: auto;
 }
 
 .card_second {
     display: inline-block;
     box-sizing: content-box;
-    /* width: 400px; */
-    height: 480px;
+    height: auto;
 }
 
 .card_third {
     display: inline-block;
     box-sizing: content-box;
-    /* width: 400px; */
-    height: 520px;
+    height: auto;
 }
 
 
@@ -126,7 +117,7 @@ html {
     font-weight: normal;
     text-decoration: none;
     width: 400px;
-    height: 400px;
+    height: auto;
 }
 
 .block_second {
@@ -136,6 +127,7 @@ html {
     border-radius: 0 20px 20px 20px;
     border-style: solid;
     border-color: rgba(22, 22, 22, 0.356);
+    border-width: 1px;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
     text-decoration: none;
     width: 400px;
@@ -149,6 +141,7 @@ html {
     border-radius: 0 20px 20px 20px;
     border-style: solid;
     border-color: rgba(22, 22, 22, 0.356);
+    border-width: 1px;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  sans-serif;
     text-decoration: none;
     width: 400px;
